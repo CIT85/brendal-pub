@@ -8,6 +8,9 @@
             name="description"
             content="This is Brenda's about Page"
         >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Corben&family=Delius+Swash+Caps&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css" type="text/css">
         <link rel="icon" href="../img/heart.png" type="image/x-icon">
         <title>Brenda's About Page</title>
@@ -36,17 +39,136 @@
         <hr>
 
         <main>
-            <h2>Why am I taking this course?</h2>
-            <p>
-                I’m really excited to learn coding because I want to be able to create cute, playful designs and bring my ideas to life on the web. Being in this CIT85 class, learning HTML and CSS, feels like the perfect start to becoming a “cool coder” who can make things that not only look adorable but work beautifully too. Learning these skills opens up so many creative doors, letting me build unique projects from scratch and personalize them. Plus, each project helps me get a stronger foundation in web design and development, which will be so valuable as I keep growing in this field. I love the idea of coding my own colorful, interactive sites that can inspire others and make them smile. This class also gives me a chance to learn alongside others who are as passionate as I am. Each new skill I gain brings me closer to my dream of making a creative impact online!
-            </p>
+            <section>
+                <h2>Why am I taking this course?</h2>
+                <p>
+                    I’m really excited to learn coding because I want to be able to create cute, playful designs and bring my ideas to life on the web. Being in this CIT85 class, learning HTML and CSS, feels like the perfect start to becoming a “cool coder” who can make things that not only look adorable but work beautifully too. Learning these skills opens up so many creative doors, letting me build unique projects from scratch and personalize them. Plus, each project helps me get a stronger foundation in web design and development, which will be so valuable as I keep growing in this field. I love the idea of coding my own colorful, interactive sites that can inspire others and make them smile. This class also gives me a chance to learn alongside others who are as passionate as I am. Each new skill I gain brings me closer to my dream of making a creative impact online!
+                </p>
 
-            <hr>
+                <hr>
 
-            <h2>What do you think of using chatGPT for researching your selected topic?</h2>
-            <p>
-                Using ChatGPT for researching my selected topic has been really helpful! I like how it provides quick, detailed information that I can dive into without sifting through tons of sources. It’s almost like having a knowledgeable study buddy who’s ready to help me brainstorm and find resources. Plus, it’s been a huge time-saver and even inspires me to explore angles I hadn’t thought of before.
-            </p>
+                <h2>What do you think of using chatGPT for researching your selected topic?</h2>
+                <p>
+                    Using ChatGPT for researching my selected topic has been really helpful! I like how it provides quick, detailed information that I can dive into without sifting through tons of sources. It’s almost like having a knowledgeable study buddy who’s ready to help me brainstorm and find resources. Plus, it’s been a huge time-saver and even inspires me to explore angles I hadn’t thought of before.
+                </p>
+            </section>
+            <section>
+                <form action="https://httpbin.org/get" method="get">
+                    <h2>Personality Test</h2>
+                    <fieldset>
+                        <legend><strong>1. How do you feel about meeting new people?</strong></legend>
+
+                        <p>
+                            <input type="radio" id="q1a" name="q1" value="energized">
+                            <label for="q1a">I love it and feel energized.</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="q1b" name="q1" value="enjoy">
+                            <label for="q1b">I enjoy it but can feel a bit nervous.</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="q1c" name="q1" value="small_groups">
+                            <label for="q1c">I prefer to meet people in small groups.</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="q1d" name="q1" value="avoid">
+                            <label for="q1d">I find it exhausting and usually avoid it.</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>2. What is your approach to organizing tasks?</strong></legend>
+                        <select id="q2" name="q2">
+                            <option value="detailed">I plan everything in detail.</option>
+                            <option value="rough_outline">I create a rough outline and adapt as I go.</option>
+                            <option value="last_minute">I wait until the last minute and then dive in.</option>
+                            <option value="go_with_flow">I usually go with the flow and see where things lead.</option>
+                        </select>
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>3. How do you usually feel in a crowded, noisy environment?</strong></legend>
+                        <p>
+                            <input type="checkbox" id="q3a" name="q3" value="energized">
+                            <label for="q3a">Energized and excited</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="q3b" name="q3" value="stimulated">
+                            <label for="q3b">Stimulated but can get tired</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="q3c" name="q3" value="overwhelmed">
+                            <label for="q3c">Overwhelmed but manage</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="q3d" name="q3" value="stressed">
+                            <label for="q3d">Stressed and drained</label>
+                        </p>
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>4. How important is it for you to have a structured routine?</strong></legend>
+
+                        <p>
+                            <input type="radio" id="q4a" name="q4" value="very_important">
+                            <label for="q4a">Very important; I need structure to function well.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q4b" name="q4" value="somewhat_important">
+                            <label for="q4b">Somewhat important; I like balance but can adapt.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q4c" name="q4" value="not_important">
+                            <label for="q4c">Not very important; I prefer flexibility.</label>
+                        </p>
+
+                        <p>
+                        <input type="radio" id="q4d" name="q4" value="dislike_routine">
+                        <label for="q4d">I dislike routines and prefer spontaneity.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q4e" name="q4" value="other">
+                            <label for="q4e">Other:</label>
+                            <input type="text" name="q4_other" placeholder="Please specify">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>5. How would you describe your ideal work environment?</strong></legend>
+
+                        <textarea id="q5" name="q5" rows="4" cols="50" placeholder="Describe your ideal work environment here..."></textarea><br>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>6. How do you usually make decisions?</strong></legend>
+
+                        <p>
+                            <input type="radio" id="q6a" name="q6" value="I go with my gut feeling.">
+                            <label for="q6a">I go with my gut feeling.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q6b" name="q6" value="I think things through logically.">
+                            <label for="q6b">I think things through logically.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q6c" name="q6" value="I consider how others might feel.">
+                            <label for="q6c">I consider how others might feel.</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="q6d" name="q6" value="I often take my time, weighing all options.">
+                            <label for="q6d">I often take my time, weighing all options.</label>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+
         </main>
         <footer>
             <p>

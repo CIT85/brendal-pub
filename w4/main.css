@@ -1,11 +1,21 @@
 html {
-    font-size: 22px;
+    font-size: 1.25rem;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
     background-color: #db6bae;
     color: whitesmoke;
+    text-align: center;
+
 }
+
+img {
+    border-radius: 8px;
+}
+
 a { 
     color: aqua;
 }
@@ -20,7 +30,90 @@ a:hover,:active {
 
 table, tr, th, td, caption {
     border: 1px solid #eee;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+
+section {
+    background-color: rgba(249, 226, 226, 0.412);
+    border-radius: 25px;
+    padding: 2rem 5rem;
+    margin: 2rem 2rem 2rem 6rem;
+    border: rgb(32, 230, 230) 8px dashed;
+    width: 70%;
+    
+}
+
+h1,h2,h3,h4 {
+    text-align: center;
+}
+
+ol,ul {
+    list-style-position: inside;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #605a5a;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 1em;
+}
+
+th {
+    background-color: #ffd6e8;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffefff;
+}
+
+tr:nth-child(even) {
+    background-color: #e8f7ff;
+}
+
+tr:nth-child(3n) {
+    background-color: #f4ffef;
+}
+
+tr:nth-child(4n) {
+    background-color: #fff7e8;
+}
+
+tr:hover {
+    background-color: #ffecf5;
+}
+
+input,textarea, select {
+    border-radius: 8px;
+    background-color: #ffd6e8;
+    border: none;
+}
+
+button {
+    border-radius: 4px;
+    border: none;
+    background-color: #ed7bac;
+    padding: .50rem 1.50rem;
+    margin: .25rem;
 }
