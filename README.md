@@ -19,7 +19,7 @@ git add filename
 ```
 ## Step 3: Commit Your Changes
 - Commit the staged changes into your **local** repository with a descriptive
-commit message:
+commit message: 
 ```bash
 git commit -m "commit message"
 ```
